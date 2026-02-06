@@ -17,7 +17,7 @@
 .bg
 {
   background-color: black;
-  height: 170px;
+  height: auto;
   width: 100%;
 }
 .bg img
@@ -43,7 +43,7 @@
 .bg1
 {
   background-color: black;
-  height: 50px;
+  height: auto;
 }
 .nav li
 {
@@ -65,7 +65,7 @@
 .banner
 {
   background-color: black;
-  height: 50px;
+  height: auto;
 }
 
 .down h1 
@@ -94,7 +94,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
 }
@@ -146,11 +146,12 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+@media (max-width: 300px) {
+  .text {font-size: 14px}
 }
 html {
   box-sizing: border-box;
+	flex-direction: column;
 }
 
 *, *:before, *:after {
@@ -201,7 +202,7 @@ html {
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 8px;
+  padding: auto;
   color: white;
   background-color: #000;
   text-align: center;
@@ -255,4 +256,5 @@ div.desc {
   color: black;
 
 }
+
 
