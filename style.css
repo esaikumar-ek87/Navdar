@@ -4,8 +4,9 @@
   margin: auto;
   padding: 15px;
 }
-
-
+.bg h2{
+	  font-size: auto;
+  margin: auto;}
 *{
     margin: 0;
     padding: 0;
@@ -256,5 +257,6 @@ div.desc {
   color: black;
 
 }
+
 
 
