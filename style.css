@@ -11,3 +11,9 @@
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+.bg
+{
+  background-color: black;
+  height: 170px;
+  width: 100%;
+}
