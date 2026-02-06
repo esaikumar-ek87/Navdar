@@ -30,7 +30,7 @@
 .bg ul li a
 {
 	color: black;
-  text-decoration: none;
+  text-decoration: auto;
 }
 .bg .nav 
 {
@@ -255,3 +255,4 @@ div.desc {
   color: black;
 
 }
+
