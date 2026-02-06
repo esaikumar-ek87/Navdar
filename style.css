@@ -2,33 +2,43 @@
   max-width: 1200px;
   width: 100%;
   margin: auto;
-  padding: 15px;}
+  padding: 15px;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+}
+
 .bg
 {
   background-color: black;
   height: 170px;
-  width: 100%;}
+  width: 100%;
+}
 .bg img
 {
 	padding-right: 60px;
   margin-top: -65px;
   height: 100px;
-  margin-left: 20px;}
+  margin-left: 20px;
+}
 .bg ul li a
 {
 	color: black;
-  text-decoration: none;}
+  text-decoration: none;
+}
 .bg .nav 
 {
    margin-left: 70px;
    padding: 10px;
-   text-align: right;}
+   text-align: right;
+
+}
 
 .bg1
 {
@@ -245,5 +255,3 @@ div.desc {
   color: black;
 
 }
-
-
