@@ -4,8 +4,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 35px;
-  background-color: yellow;
-  color: black;
+  background-color: black;
+  color: white;
 }
 .logo {
   font-size: 22px;
@@ -67,6 +67,7 @@
 	
   z-index: 1000;
 }
+
 
 
 
