@@ -1,1 +1,41 @@
 
+		.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 35px;
+  background-color: yellow;
+  color: black;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.nav a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav a {
+    margin: 10px;
+    display: inline-block;
+  }
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
