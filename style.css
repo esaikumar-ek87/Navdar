@@ -35,7 +35,38 @@
 .site-header {
   position: sticky;
   top: 0;
+.hero-section {
+  height: 90vh; 
+  background-image: url("banner.jpeg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .hero-section {
+    height: 60vh;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+}
+
+	
   z-index: 1000;
 }
+
 
 
